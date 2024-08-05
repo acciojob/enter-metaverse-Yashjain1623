@@ -15,3 +15,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // Attach event listener to the button
     enterBtn.addEventListener('click', handleEnter);
 });
+

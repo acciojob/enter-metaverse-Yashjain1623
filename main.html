@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enter Metaverse</title>
-    
 </head>
 <body>
-    <div id="enter-metaverse">
-        <p id="status">Enter the Metaverse</p>
-        <button id="enterBtn">Enter</button>
-    </div>
-
-    <script src="script.js"></script>
+    <h1>Enter Metaverse</h1>
+    <p id="status">Enter the Metaverse</p>
+    <button id="enterBtn">Enter</button>
+    <script>
+        // JavaScript code to handle the status update
+        document.getElementById('enterBtn').addEventListener('click', function() {
+            // Update the content of the status paragraph to an h1 tag with new text
+            document.getElementById('status').innerHTML = '<h1>Entered Metaverse</h1>';
+        });
+    </script>
 </body>
 </html>
